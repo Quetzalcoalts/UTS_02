@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                 Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(25.0),
+                      padding: const EdgeInsets.all(15.0),
                       child: Text("Popular Course : ",
                       style : TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
                       ),
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
             ),
 
             Container(
-              padding: EdgeInsets.all(25.0),
+              padding: EdgeInsets.all(15.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -208,6 +208,165 @@ class MyApp extends StatelessWidget {
                             )
                           ],
                         )
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Text("Last Seen Courses",
+                  style : TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
+                  ),
+                ),
+              ],
+            ),
+
+            Container(
+              padding: EdgeInsets.all(5.0),
+              child: Column(
+                children: [
+                  Container(
+                    padding: EdgeInsets.all(8.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Container(
+                              width: 370,
+                              height: 50,
+                              decoration: BoxDecoration(
+                                color: Colors.purpleAccent,
+                                borderRadius: BorderRadius.circular(10),
+                                border: Border.all(
+                                  color: Colors.purpleAccent,
+                                  width: 5,
+                                )
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(left : 15.0),
+                                    child: Icon(Icons.send),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(right : 100.0, top: 3.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Basics of Designing"),
+                                        Text("1 hour, 25 mins"),
+                                      ],
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(right : 15.0),
+                                    child: Icon(Icons.play_circle,),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    padding: EdgeInsets.all(8.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Container(
+                              width: 370,
+                              height: 50,
+                              decoration: BoxDecoration(
+                                color: Colors.purpleAccent,
+                                borderRadius: BorderRadius.circular(10),
+                                border: Border.all(
+                                  color: Colors.purpleAccent,
+                                  width: 5,
+                                )
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(left : 15.0),
+                                    child: Icon(Icons.send),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(right : 100.0, top: 3.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Human Respitory System"),
+                                        Text("4 hour, 10 mins"),
+                                      ],
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(right : 15.0),
+                                    child: Icon(Icons.play_circle,),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    padding: EdgeInsets.all(8.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Container(
+                              width: 370,
+                              height: 50,
+                              decoration: BoxDecoration(
+                                color: Colors.purpleAccent,
+                                borderRadius: BorderRadius.circular(10),
+                                border: Border.all(
+                                  color: Colors.purpleAccent,
+                                  width: 5,
+                                )
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(left : 15.0),
+                                    child: Icon(Icons.send),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(right : 100.0, top: 3.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Integration & Differentiation"),
+                                        Text("2 hour, 37 mins"),
+                                      ],
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(right : 15.0),
+                                    child: Icon(Icons.play_circle,),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),
