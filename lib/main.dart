@@ -231,7 +231,7 @@ class MyApp extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
-                    padding: EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(5.0),
                     child: Row(
                       children: [
                         Column(
@@ -278,7 +278,7 @@ class MyApp extends StatelessWidget {
                   ),
 
                   Container(
-                    padding: EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(5.0),
                     child: Row(
                       children: [
                         Column(
@@ -325,7 +325,7 @@ class MyApp extends StatelessWidget {
                   ),
 
                   Container(
-                    padding: EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(5.0),
                     child: Row(
                       children: [
                         Column(
@@ -373,6 +373,35 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
+
+            Container(
+              padding: EdgeInsets.only(left: 40.0, right: 40.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    children: [
+                      Icon(Icons.home, size: 30.0, color: Colors.blue),
+                      Text("Home"),
+                    ],
+                  ),
+
+                  Column(
+                    children: [
+                      Icon(Icons.book, size: 30.0, color: Colors.grey),
+                      Text("Explore"),
+                    ],
+                  ),
+
+                  Column(
+                    children: [
+                      Icon(Icons.chat, size: 30.0, color: Colors.grey),
+                      Text("Chat"),
+                    ],
+                  ),
+                ],
+              ),
+            )
           ],
         ),
       )
