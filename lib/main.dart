@@ -91,22 +91,129 @@ class MyApp extends StatelessWidget {
               ],
             ),
 
-            Row(
-              children: [
-                Column(
-                  children: [
-                    Icon(Icons.calendar_month, size: 30),
-                    Text("Science",
-                    style : TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0)
+
+            Container(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    color: Colors.greenAccent,
+                    padding: EdgeInsets.all(15.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.calendar_month, size: 30),
+                            Text("Science",
+                            style : TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0)
+                            ),
+                            Text("Chapter 4",
+                            style : TextStyle(color: Colors.grey, fontSize: 13.0)
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.alarm, size : 15.0),
+                                Text("27 mins",
+                                style: TextStyle(fontSize: 13.0),
+                                ),
+                              ],
+                            )
+                          ],
+                        )
+                      ],
                     ),
-                    Text("Chapter 4",
-                    style : TextStyle(color: Colors.grey, fontSize: 13.0)
+                  ),
+
+                  Container(
+                    color: Colors.greenAccent,
+                    padding: EdgeInsets.all(15.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.star, size: 30),
+                            Text("Design",
+                            style : TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0)
+                            ),
+                            Text("Chapter 5",
+                            style : TextStyle(color: Colors.grey, fontSize: 13.0)
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.alarm, size : 15.0),
+                                Text("30 mins",
+                                style: TextStyle(fontSize: 13.0),
+                                ),
+                              ],
+                            )
+                          ],
+                        ),
+                      ],
                     ),
-                    
-                  ],
-                )
-              ],
-            )
+                  ),
+
+                  Container(
+                    color: Colors.greenAccent,
+                    padding: EdgeInsets.all(15.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.car_rental, size: 30),
+                            Text("Biology",
+                            style : TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0)
+                            ),
+                            Text("Chapter 1",
+                            style : TextStyle(color: Colors.grey, fontSize: 13.0)
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.alarm, size : 15.0),
+                                Text("25 mins",
+                                style: TextStyle(fontSize: 13.0),
+                                ),
+                              ],
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    color: Colors.greenAccent,
+                    padding: EdgeInsets.all(15.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.coffee, size: 30),
+                            Text("Cooking",
+                            style : TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0)
+                            ),
+                            Text("Chapter 3",
+                            style : TextStyle(color: Colors.grey, fontSize: 13.0)
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.alarm, size : 15.0),
+                                Text("18 mins",
+                                style: TextStyle(fontSize: 13.0),
+                                ),
+                              ],
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       )
